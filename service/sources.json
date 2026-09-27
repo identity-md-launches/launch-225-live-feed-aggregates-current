@@ -1,0 +1,11 @@
+{
+  "sources": [
+    {
+      "id": "bluesky",
+      "name": "Bluesky search",
+      "type": "bluesky",
+      "query": "\"Identity-MD\" OR \"$IMD\"",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "id": "bluesky",
+      "name": "Bluesky search",
+      "type": "bluesky",
+      "query": "\"Identity-MD\" OR \"$IMD\"",
+      "enabled": true
+    },
+    {
+      "id": "x",
+      "name": "X search",
+      "type": "x",
+      "tokenEnv": "IMD_X_BEARER_TOKEN",
+      "query": "\"Identity-MD\" OR \"$IMD\"",
+      "enabled": false
+    },
+    {
+      "id": "publication",
+      "name": "Your publication",
+      "type": "rss",
+      "url": "https://example.com/feed.xml",
+      "origin": "Web",
+      "kind": "Article",
+      "enabled": false
+    },
+    {
+      "id": "video-channel",
+      "name": "Your video channel",
+      "type": "atom",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=YOUR_CHANNEL_ID",
+      "origin": "YouTube",
+      "kind": "Video",
+      "enabled": false
+    },
+    {
+      "id": "community",
+      "name": "Your community feed",
+      "type": "json",
+      "url": "https://example.com/feed.json",
+      "origin": "Reddit",
+      "enabled": false
+    }
+  ]
+}
